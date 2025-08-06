@@ -1,7 +1,7 @@
 <?php
 $profile = [
     'name' => 'Jeshis Rasailee',
-    'title' => 'System, Network & Security Engineer',
+    'title' => 'Network & Security Engineer',
     'residence' => 'Nepal',
     'city' => 'Itahari, Province-1 ',
     'age' => 23,
@@ -64,10 +64,15 @@ $services = [
                                     style="stroke-dasharray: <?php echo ($lang['percentage'] / 100) * 163.36; ?> 163.36;"></circle>
                         </svg>
                         <div class="circle-text"><?php echo $lang['percentage']; ?>%</div>
+                        <div class="circle-label"><?php echo $lang['name'];?></div><br>
                     </div>
+
+      
                 <?php endforeach; ?>
             </div>
         </div>
+        <h3>SKills</h3>
+
         <div class="social-icons">
             <a href="https://www.linkedin.com/in/jeshis-rasailee-982282229/" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
             <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
@@ -97,7 +102,39 @@ $services = [
             <?php endforeach; ?>
         </section>
         <section class="services-section">
-            <h3 class="services-title">My Services</h3>
+            <h3 class="services-title">My Expertise</h3>
+                <div class="services">
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <h3>Network Design and Security</h3>
+                            </div>
+                            <div class="flip-box-back">
+                                <p>Designing efficient and secure network topologies for businesses and Protecting network from malicious attacks.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <h3>System Administration</h3>
+                            </div>
+                            <div class="flip-box-back">
+                                <p>System management and adminstration implementing Access Control.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flip-box">
+                        <div class="flip-box-inner">
+                            <div class="flip-box-front">
+                                <h3>Server and Infrastructure Setup</h3>
+                            </div>
+                            <div class="flip-box-back">
+                                <p>Implementing various Infrastructure for improving business operations.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             <!-- Add service cards here if needed -->
         </section>
     </main>
